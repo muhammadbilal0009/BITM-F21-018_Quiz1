@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label, input, button {
+    display: block;
+    margin: 10px auto;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #b4eded;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #daf4f4;
+}
+
+tfoot button {
+    width: 100%;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#result h2 {
+    font-size: 20px;
+}
+
+#result p {
+    font-size: 24px;
+    font-weight: bold;
+}
